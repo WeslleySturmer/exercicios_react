@@ -1,13 +1,17 @@
 import './App.css';
 import HelloWorld from './components/HelloWorld';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
-  const name = 'Weslley'
-  
   return (
     <div className="App">
-      <HelloWorld />
-      <p>Olá, {name}</p>
+      <SayMyName name="Weslley" />
+      <Pessoa nome="Weslley"
+        idade="20"
+        profissao="Programador"
+        foto="https://placehold.co/400" 
+      />
     </div>
   );
 }
