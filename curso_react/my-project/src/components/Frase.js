@@ -1,7 +1,9 @@
+import styles from './Frase.module.css'
+
 function Frase(){
     return (
-        <div>
-            <p>Teste de frase reutilizável</p>
+        <div className={styles.fraseContainer}>
+            <p className={styles.fraseContent}>Teste de frase reutilizável</p>
         </div>
     )
 }
