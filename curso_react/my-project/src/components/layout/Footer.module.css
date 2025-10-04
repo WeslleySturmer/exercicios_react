@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+.social_list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style: none;
+}
+
+.social_list li{
+    margin: 0 1em;
+}
+
+.social_list svg{
+    font-size: 2em;
+    cursor: pointer;
+}
