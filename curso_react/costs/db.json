@@ -10,6 +10,28 @@
       },
       "costs": 0,
       "services": []
+    },
+    {
+      "id": "9837",
+      "name": "teste 3",
+      "budget": "12345",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": 0,
+      "services": []
+    },
+    {
+      "id": "7160",
+      "name": "teste 5",
+      "budget": "23412341",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": 0,
+      "services": []
     }
   ],
   "categories": [
