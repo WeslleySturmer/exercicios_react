@@ -5,6 +5,8 @@
 }
 
 .newproject_container h1 {
+    font-size: 2.5em;
+    font-weight: bold;
     margin-bottom: 0.5em;
 }
 
