@@ -3,7 +3,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: aqua;
+    background-color: #222;
+}
+
+.container img{
+    margin: 10px 20px;
 }
 
 .navbar {
@@ -13,14 +17,23 @@
 
     margin-right: 30px;
     list-style: none;
-
-    background-color: beige;
 }
 
 .navbar li {
-    color: black;
+    color: white;
+    transition: 0.4s ease;
 }
 
 .navbar li a {
+    color: white;   
     text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.navbar li:hover {
+    scale: 107%;
+}
+
+.navbar li a:hover {
+    color: #FFbb33;
 }

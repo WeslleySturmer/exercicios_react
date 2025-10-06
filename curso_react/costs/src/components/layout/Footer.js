@@ -3,14 +3,14 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
     return (
-        <div className={styles.container}>
-            <p>Footer</p>
+        <footer className={styles.container}>
             <ul className={styles.social_list}>
                 <li><FaFacebook /></li>
                 <li><FaInstagram /></li>
                 <li><FaLinkedin /></li>
             </ul>
-        </div>
+            <p><span>Costs</span> &copy; 2025 </p>
+        </footer>
     )
 }
 

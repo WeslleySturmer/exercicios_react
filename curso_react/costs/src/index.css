@@ -8,6 +8,11 @@
 }
 
 html, body, #root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-color: #efefef;
   height: 100%;
 }
+
