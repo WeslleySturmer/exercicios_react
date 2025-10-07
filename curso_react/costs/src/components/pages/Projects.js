@@ -6,6 +6,7 @@ import styles from './Project.module.css'
 import Message from "../layout/Message"
 import Container from '../layout/Container'
 import LinkButton from '../layout/LinkButton'
+import ProjectCard from '../project/ProjectCard'
 
 
 function Projects() {
@@ -39,13 +40,16 @@ function Projects() {
             </div>
             {message && (<Message msg={message} type='sucess' />)}
             <Container customClass='start'>
-                {projects.map(project => (
-                    <div>
-                        <p>{project.name}</p>
-                        <p>{project.budget}</p>
-                        <input type='button' value='ver mais'></input>
-                    </div>
-                ))}
+                {projects.length > 0 && (
+                    projects.map((project) => <ProjectCard 
+                    name={project.name}
+                    id={project.id}
+                    budget={project.budget}
+                    category={project.category.name}
+                    key={project.id}
+                     />)
+
+                )   }
             </Container>
         </div>
     )
