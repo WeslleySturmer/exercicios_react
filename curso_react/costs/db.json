@@ -8,8 +8,15 @@
         "id": "3",
         "name": "Design"
       },
-      "costs": 0,
-      "services": []
+      "costs": 1,
+      "services": [
+        {
+          "name": "asdfasdf",
+          "cost": "1",
+          "description": "dfasdfasdf",
+          "id": "4af4df02-b678-4906-8abb-716d8e3fc35a"
+        }
+      ]
     },
     {
       "id": "e2e6",
