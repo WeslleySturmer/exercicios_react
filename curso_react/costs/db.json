@@ -1,38 +1,39 @@
 {
   "projects": [
     {
-      "id": "abeb",
-      "name": "1234123412341234",
-      "budget": "100",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "costs": 1,
-      "services": [
-        {
-          "name": "asdfasdf",
-          "cost": "1",
-          "description": "dfasdfasdf",
-          "id": "4af4df02-b678-4906-8abb-716d8e3fc35a"
-        }
-      ]
-    },
-    {
       "id": "e2e6",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "name": "Desenvolvimento site 2",
+      "name": "Desenvolvimento site",
       "budget": "500000",
+      "costs": 10000,
+      "services": [
+        {
+          "name": "Contratar programador",
+          "cost": "10000",
+          "description": "Contratação para que possa ser desenvolvido o site em questão",
+          "id": "01190d0e-4db1-421c-8859-402f14c30638"
+        }
+      ],
+      "cost": null
+    },
+    {
+      "id": "da30",
+      "name": "Curso de React",
+      "budget": "1500",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
       "costs": 0,
       "services": []
     },
     {
-      "id": "e15c",
-      "name": "twergwegr",
-      "budget": "23452345",
+      "id": "5eb2",
+      "name": "Redesign",
+      "budget": "7500",
       "category": {
         "id": "3",
         "name": "Design"
